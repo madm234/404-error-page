@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.first_line{
+    background-color: rgb(34, 57, 208);
+    border: none;
+    height: 1px;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(35, 18, 70);
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.imga{
+    display: inline-block;
+    margin-right: 30vw;
+}
+
+.imga2{
+    display: inline-block;
+    margin-left: 25vw;
+}
+
+.item{
+    display: inline-block;
+    margin:0 7px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.item2{
+    display:inline-flex;
+    color: white;
+}
+
+.a{
+    display: inline;
+    color: white;
+    padding-right: 1vw;
+
+}
+
+.main_box{
+    display: inline;
+}
+
+.image{
+    background: url(../images/error.jpg) no-repeat ;
+    background-size: 700px;
+    height: 80vh;
+}
+
+.text404{
+   display: inline-block;
+   padding: 30px 0 0 720px;
+   font-size: 150px;
+   color:  rgb(35, 18, 70);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.message404{
+    display: inline-block;
+    padding: 0 0 0 700px;
+    font-size: 30px;
+    color:  rgb(35, 18, 70);
+    font-family: 'Nunito', sans-serif;
+}
+
+.para{
+    display: inline-block;
+    padding: 0 0 0 700px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.home_button{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0 0 700px;
+    padding: 10px 28px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    background-color:  rgb(35, 18, 70);
+}
+
+.last_div{
+    background-color: rgb(35, 18, 70);
+    height: 10vh;
+    padding-left: 70vw;
+}
+
+.navul .item2{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.item3{
+    margin:6px 12px 0 0;
+    display: inline-block;
+    color: rgb(91, 91, 189);
+}
+
